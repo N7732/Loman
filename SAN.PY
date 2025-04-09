@@ -87,24 +87,24 @@
 #         print(i)
 
 #smallest divisor of integer
-l=[]
-n=int(input("Enter number : "))
-for i in range(1,n+1):
-    if(n%i==0):
-        l.append(i)
-print(l[1])
+# l=[]
+# n=int(input("Enter number : "))
+# for i in range(1,n+1):
+#     if(n%i==0):
+#         l.append(i)
+# print(l[1])
 
 #Binary Equivalent of an integer using recursion
-# l=[]
-# def binary(b):
-#     if(b==0):
-#         return 1
-#     dig=b%2
-#     l.append(dig)
-#     binary(b//2)
-# n=int(input("Enter number : "))
-# binary(n)
-# l.reverse()
-# for i in l:
-#     print(i)
+l=[]
+def binary(b):
+    if(b==0):
+        return 1
+    dig=b%2
+    l.append(dig)
+    binary(b//2)
+n=int(input("Enter number : "))
+binary(n)
+l.reverse()
+for i in l:
+    print(i)
     
