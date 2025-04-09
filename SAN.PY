@@ -42,20 +42,20 @@
 #     print("Isn t paliandrome")
 
 #reverse number
-n=int(input("Enter number"))
-temp=n
-rev =0
-while(n>0):
-    d=n%10
-    rev=rev*10 +d
-    n=n//10
-print(rev)
+# n=int(input("Enter number"))
+# temp=n
+# rev =0
+# while(n>0):
+#     d=n%10
+#     rev=rev*10 +d
+#     n=n//10
+# print(rev)
 
 #All number that are not Divisible by either 2 or 3
-# n=int(input("Enter range !: "))
-# for i in range(n):
-#     if i%2 !=0 and i%3 !=0:
-#         print(i)
+n=int(input("Enter range !: "))
+for i in range(n):
+    if i%2 !=0 and i%3 !=0:
+        print(i)
 
 
 # n=int(input("Enter the renge : "))
