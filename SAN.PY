@@ -15,31 +15,31 @@
 #     print(f"{n} IS Negative number")
 
 # #ODD NUMBER IN RANGE
-n=int(input("Enter Range ! : "))
-for i in range(n):
-    if i % 2 !=0:
-        print(i)
+# n=int(input("Enter Range ! : "))
+# for i in range(n):
+#     if i % 2 !=0:
+#         print(i)
 
 #Check number is paliandrome in range
-# m=int(input("Enter the range : "))
-# temp=m
-# rev=0
-# while(m>0):
-#     dig=m%10
-#     rev=rev*10+dig
-#     m=m//10
-# if(temp==rev):
-#     print("is palindrome")
-# else:
-#     print("is not paliandrome")
+m=int(input("Enter the range : "))
+temp=m
+rev=0
+while(m>0):
+    dig=m%10
+    rev=rev*10+dig
+    m=m//10
+if(temp==rev):
+    print("is palindrome")
+else:
+    print("is not paliandrome")
 
-# def paliandrome(n):
-#     return str(n)=="".join(reversed(str(n)))
-# n=int(input("Enter Number : "))
-# if paliandrome(n):
-#     print("IS Paliandrome")
-# else:
-#     print("Isn t paliandrome")
+def paliandrome(n):
+    return str(n)=="".join(reversed(str(n)))
+n=int(input("Enter Number : "))
+if paliandrome(n):
+    print("IS Paliandrome")
+else:
+    print("Isn t paliandrome")
 
 #reverse number
 # n=int(input("Enter number"))
