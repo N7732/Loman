@@ -109,19 +109,49 @@
 #     print(i) 
 # #print(i)
     
-try:
-    n=int(input("Enter marks:"))
-    if n==100 and n>=90:
-        print("Genius")
-    elif n<90 and n>=80:
-        print("Excellent")
-    elif n<80 and n>=70:
-        print("Good")
-    elif n<70 and n>=50:
-        print("Work hard")
-    elif n<50 and n>=0:
-        print("fail")
-    elif n>100 or n<0:
-        print("Out of range")
-except ValueError:
-    print("Invalid input")
+# try:
+#     n=int(input("Enter marks:"))
+#     if n==100 and n>=90:
+#         print("Genius")
+#     elif n<90 and n>=80:
+#         print("Excellent")
+#     elif n<80 and n>=70:
+#         print("Good")
+#     elif n<70 and n>=50:
+#         print("Work hard")
+#     elif n<50 and n>=0:
+#         print("fail")
+#     elif n>100 or n<0:
+#         print("Out of range")
+# except ValueError:
+#     print("Invalid input")
+
+# quadratic equation
+print("Equation : ax^2 + bx + c = d")
+r=int(input("Enter a :"))
+k=int(input("Enter b :"))
+f=int(input("Enter c :"))
+m=int(input("Enter d :"))
+print(f"{r}x^2 +{k}x + {f} = {m}")
+d=f-m
+print(f"{r}x^2 + {k}x + {d} = 0")
+d=k**2 -4*r*d
+print("Formula of delta : b^2 - 4ac")
+if d>0:
+    t=d**0.5
+    print(f"delta is : {d} \nThen")
+    print(f"t1= +{round(t,2)}\nt2= -{round(t,2)}")
+    print(f"solve for x1 and x2\n")
+    x1=(-k+t)/(2*r)
+    x2=(-k-t)/(2*r)
+    print(f"solution is x1 = {round(x1,2)} and x2 = {round(x2,2)}")
+    print("\nYou can verify you self ")
+elif d==0:
+    print(f"delta is : {d}\nMeans")
+    print("x1 is equal to x2\n x1=x2")
+    u=-k/2*r
+    print(f"print x1=x2=:{round(u,2)}")
+    print("You can verify you self")
+else:
+    print(f"\ndelta is :{d}\nSo")
+    print("\nTry complex number")
