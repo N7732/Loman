@@ -106,5 +106,6 @@ n=int(input("Enter number : "))
 binary(n)
 l.reverse()
 for i in l:
-    print(i)
+    print(i) 
+#print(i)
     
