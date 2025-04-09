@@ -52,17 +52,17 @@
 # print(rev)
 
 #All number that are not Divisible by either 2 or 3
-n=int(input("Enter range !: "))
-for i in range(n):
-    if i%2 !=0 and i%3 !=0:
-        print(i)
-
-
-# n=int(input("Enter the renge : "))
-# k=int(input("Enter Divisible : "))
-# for i in range(n+1):
-#     if i%k==0:
+# n=int(input("Enter range !: "))
+# for i in range(n):
+#     if i%2 !=0 and i%3 !=0:
 #         print(i)
+
+
+n=int(input("Enter the renge : "))
+k=int(input("Enter Divisible : "))
+for i in range(n+1):
+    if i%k==0:
+        print(i)
 
 # sum of Digits of number
 # n=int(input("Enter number : "))
