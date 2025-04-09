@@ -75,16 +75,16 @@
 
 #Count number of digits
 
-n=int(input("Enter number : "))
-str(n)
-m=list(str(n))
-print(len(str(n)))
+# n=int(input("Enter number : "))
+# str(n)
+# m=list(str(n))
+# print(len(str(n)))
 
 #Divisor of any number
-# n=int(input("Enter number : "))
-# for i in range(1,n+1):
-#     if (n%i==0):
-#         print(i)
+n=int(input("Enter number : "))
+for i in range(1,n+1):
+    if (n%i==0):
+        print(i)
 
 #smallest divisor of integer
 # l=[]
