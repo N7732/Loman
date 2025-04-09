@@ -1,18 +1,18 @@
 #Check whether a Given Number is even or odd 
-n=int(input("Enter any number : "))
-if n%2==0:
-    print(f"{n} is Even number")
-else:
-    print(f"{n} is Odd number")
+# n=int(input("Enter any number : "))
+# if n%2==0:
+#     print(f"{n} is Even number")
+# else:
+#     print(f"{n} is Odd number")
 
 #check if number is positive or negative
-# n=int(input("Enter Number : "))
-# if n>0:
-#     print(f"{n} number is positive")
-# elif n==0:
-#     print("Zero")
-# else:
-#     print(f"{n} IS Negative number")
+n=int(input("Enter Number : "))
+if n>0:
+    print(f"{n} number is positive")
+elif n==0:
+    print("Zero")
+else:
+    print(f"{n} IS Negative number")
 
 # #ODD NUMBER IN RANGE
 # n=int(input("Enter Range ! : "))
