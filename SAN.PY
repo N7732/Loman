@@ -5,7 +5,7 @@ if n%2==0:
 else:
     print(f"{n} is Odd number")
 
-#check if number is positive or negative 
+#check if number is positive or nega
 # n=int(input("Enter Number : "))
 # if n>0:
 #     print(f"{n} number is positive")
