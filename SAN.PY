@@ -58,20 +58,20 @@
 #         print(i)
 
 
-n=int(input("Enter the renge : "))
-k=int(input("Enter Divisible : "))
-for i in range(n+1):
-    if i%k==0:
-        print(i)
+# n=int(input("Enter the renge : "))
+# k=int(input("Enter Divisible : "))
+# for i in range(n+1):
+#     if i%k==0:
+#         print(i)
 
-# sum of Digits of number
-# n=int(input("Enter number : "))
-# tot=0
-# while(n>0):
-#     dig=n%10
-#     tot=tot+dig
-#     n=n//10
-# print(f"Sum of DIGIT OF Number is:{tot}")
+#sum of Digits of number
+n=int(input("Enter number : "))
+tot=0
+while(n>0):
+    dig=n%10
+    tot=tot+dig
+    n=n//10
+print(f"Sum of DIGIT OF Number is:{tot}")
 
 #Count number of digits
 
