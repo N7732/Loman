@@ -65,20 +65,20 @@
 #         print(i)
 
 #sum of Digits of number
-n=int(input("Enter number : "))
-tot=0
-while(n>0):
-    dig=n%10
-    tot=tot+dig
-    n=n//10
-print(f"Sum of DIGIT OF Number is:{tot}")
+# n=int(input("Enter number : "))
+# tot=0
+# while(n>0):
+#     dig=n%10
+#     tot=tot+dig
+#     n=n//10
+# print(f"Sum of DIGIT OF Number is:{tot}")
 
 #Count number of digits
 
-# n=int(input("Enter number : "))
-# str(n)
-# m=list(str(n))
-# print(len(str(n)))
+n=int(input("Enter number : "))
+str(n)
+m=list(str(n))
+print(len(str(n)))
 
 #Divisor of any number
 # n=int(input("Enter number : "))
