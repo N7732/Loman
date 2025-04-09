@@ -95,17 +95,33 @@
 # print(l[1])
 
 #Binary Equivalent of an integer using recursion
-l=[]
-def binary(b):
-    if(b==0):
-        return 1
-    dig=b%2
-    l.append(dig)
-    binary(b//2)
-n=int(input("Enter number : "))
-binary(n)
-l.reverse()
-for i in l:
-    print(i) 
-#print(i)
+# l=[]
+# def binary(b):
+#     if(b==0):
+#         return 1
+#     dig=b%2
+#     l.append(dig)
+#     binary(b//2)
+# n=int(input("Enter number : "))
+# binary(n)
+# l.reverse()
+# for i in l:
+#     print(i) 
+# #print(i)
     
+try:
+    n=int(input("Enter marks:"))
+    if n==100 and n>=90:
+        print("Genius")
+    elif n<90 and n>=80:
+        print("Excellent")
+    elif n<80 and n>=70:
+        print("Good")
+    elif n<70 and n>=50:
+        print("Work hard")
+    elif n<50 and n>=0:
+        print("fail")
+    elif n>100 or n<0:
+        print("Out of range")
+except ValueError:
+    print("Invalid input")
