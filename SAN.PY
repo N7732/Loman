@@ -6,19 +6,19 @@
 #     print(f"{n} is Odd number")
 
 #check if number is positive or negative
-n=int(input("Enter Number : "))
-if n>0:
-    print(f"{n} number is positive")
-elif n==0:
-    print("Zero")
-else:
-    print(f"{n} IS Negative number")
+# n=int(input("Enter Number : "))
+# if n>0:
+#     print(f"{n} number is positive")
+# elif n==0:
+#     print("Zero")
+# else:
+#     print(f"{n} IS Negative number")
 
 # #ODD NUMBER IN RANGE
-# n=int(input("Enter Range ! : "))
-# for i in range(n):
-#     if i % 2 !=0:
-#         print(i)
+n=int(input("Enter Range ! : "))
+for i in range(n):
+    if i % 2 !=0:
+        print(i)
 
 #Check number is paliandrome in range
 # m=int(input("Enter the range : "))
