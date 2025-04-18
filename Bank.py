@@ -3,9 +3,13 @@ x=datetime.datetime.now()
 print(f"\n{x.strftime("%c")}    WELCOME IN OLIVO BANKING SYSTEM\n")
 class Bank:
     def __init__(self,account,owner,balance=0):
-        self.account=account
+        self._account=account
         self.owner=owner
         self.balance=balance
+        self._ssn=None
+    @property
+    def account(self):
+        return "*******" + str(self._account)[-2:]
     def deposit(self):
         pass
         return f"Account Number :{self.account} owned by {self.owner} your initial balance is: {self.balance}\n"
